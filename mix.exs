@@ -30,7 +30,7 @@ defmodule Money.Mixfile do
   defp deps do
     [
       # Soft dependencies
-      {:ecto, "~> 1.0 or ~> 2.0 or ~> 2.1", optional: true},
+      {:ecto, "~> 1.0 or ~> 2.0 or ~> 2.1 or ~> 2.2", optional: true},
       {:phoenix_html, "~> 2.0", optional: true},
 
       # Code style
